@@ -63,7 +63,8 @@ function Students() {
             <button onClick={() =>
                 addStd({
                     variables: {
-                        id: 15, email: "temp2@gmail", age: 23, name: "Student 1"
+                        id: 15, email: "temp2@gmail", age: 23, name: "Student 1",
+                        id: 15, email: "temp2@gmail", age: 23, name: "Student 222"
                     },
                     refetchQueries: [{ query: GET_STUDENTS }]
 
